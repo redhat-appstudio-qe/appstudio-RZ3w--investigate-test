@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-kevx
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/happy-path-tenant/appstudio/dc-metro-map-kevx@sha256:79183e02f024ddafc5c2279e83a0397d0aa59a001d1a5081323ae3043c74a32c
         name: my-nodejs
         ports:
         - containerPort: 3001
